@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Pressão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Pressão</h1>
+        <p class="description">Converta facilmente entre diferentes unidades de pressão com precisão e rapidez.</p>
+        <div class="converter">
+            <label for="value">Valor:</label>
+            <input type="number" id="value" placeholder="Digite o valor" step="any">
+            
+            <label for="fromUnit">De:</label>
+            <select id="fromUnit">
+                <option value="pa">Pa</option>
+                <option value="kpa">kPa</option>
+                <option value="bar">bar</option>
+                <option value="atm">atm</option>
+                <option value="psi">psi</option>
+                <option value="mmhg">mmHg</option>
+                <option value="torr">Torr</option>
+                <option value="inhg">inHg</option>
+            </select>
+
+            <label for="toUnit">Para:</label>
+            <select id="toUnit">
+                <option value="pa">Pa</option>
+                <option value="kpa">kPa</option>
+                <option value="bar">bar</option>
+                <option value="atm">atm</option>
+                <option value="psi">psi</option>
+                <option value="mmhg">mmHg</option>
+                <option value="torr">Torr</option>
+                <option value="inhg">inHg</option>
+            </select>
+            
+            <div id="result">Resultado: </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
