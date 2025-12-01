@@ -82,3 +82,4 @@ Alteração 2 do segundo integrante
 Alteração 3 do segundo integrante
 Alteração 4 do segundo integrante
 Alteração 5 do segundo integrante
+Alteração 6 do segundo integrante
