@@ -67,3 +67,4 @@ function updateResult() {
 document.getElementById('value').addEventListener('input', updateResult);
 document.getElementById('fromUnit').addEventListener('change', updateResult);
 document.getElementById('toUnit').addEventListener('change', updateResult);
+Alteração 1 do eduardowervert
