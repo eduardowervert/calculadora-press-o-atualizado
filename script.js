@@ -69,3 +69,4 @@ document.getElementById('fromUnit').addEventListener('change', updateResult);
 document.getElementById('toUnit').addEventListener('change', updateResult);
 Alteração 1 do eduardowervert
 Alteração 2 do eduardowervert
+Alteração 3 do eduardowervert
